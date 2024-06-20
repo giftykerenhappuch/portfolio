@@ -1,0 +1,230 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:  #eceae7;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.imgclass img{
+    width: 50px;
+}
+.imgclass{
+    display: flex;
+    background-color:#eceae7;
+    color: #756957;;
+    position: sticky;
+}
+.imgclass h1{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+.navbarslist{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+    margin-left: 60rem;
+}
+.navbarslist a{
+    text-decoration: none;
+    color: black;
+}
+.button1{
+    border: 0;
+    border-radius: 5px;
+    background-color: #473d2f;
+    color: white;
+    cursor: pointer;
+    padding: 10px 10px;
+}
+.button1:hover {
+    background-color: green;
+}
+.button2{
+    border: 0;
+    border-radius: 5px;
+    background-color: #473d2f;
+    color: #eceae7;
+    cursor: pointer;
+    padding: 10px 10px;
+    margin-left: 32%;
+}
+.button2:hover {
+    background-color: green;
+}
+.heroitems h1{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    text-align: center;
+    font-size: 2.5rem;
+    padding-left: 20%;
+    color: #473d2f;
+}
+.heroitems h2{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-left: 40px;
+}
+.heroitems p{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+.heroitems img{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 420px;
+    float: right;
+    border: 0;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+.skillslist{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap:30px;
+    margin-left: 20px;
+    line-height: 1.6;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.skillslist1{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap:30px;
+    margin-left: 20px;
+    line-height: 1.6;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.skillslist2{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap:30px;
+    margin-left: 20px;
+    line-height: 1.6;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.skillslist3{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap:30px;
+    margin-left: 20px;
+    line-height: 1.6;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.skillslist img{
+    width: 30px;
+    height: 30px;
+}
+.skillslist1 img{
+    width: 30px;
+    height: 30px;
+}
+.skillslist2 img{
+    width: 30px;
+    height: 30px;
+    margin-left: 40px;
+}
+.skillslist3 img{
+    width: 30px;
+    height: 30px;
+    margin-left: 60px;
+}
+.project h2{
+    margin-left: 40px;
+}
+.projects{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.project1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 270px;
+    background-color: #c6bdb3;
+    color: black;
+    border: 0;
+    border-radius: 20px;
+    align-items: center;
+}
+.project1 img{
+    width: 270px;
+    height: 300px;
+    border: 0;
+    border-radius: 20px;
+}
+.project1 p{
+    line-height: 1.7rem;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1rem;
+}
+.project2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 270px;
+    margin-left: 150px;
+    background-color: #c6bdb3;
+    color: black;
+    border: 0;
+    border-radius: 20px;
+    align-items: center;
+}
+.project2 img{
+    width: 270px;
+    height: 350px;
+    border: 0;
+    border-radius: 20px;
+}
+.project2 p{
+    line-height: 1.7rem;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1rem;
+}
+.project3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 270px;
+    margin-left: 150px;
+    background-color: #c6bdb3;
+    color: black;
+    border: 0;
+    border-radius: 20px;
+    align-items: center;
+}
+.project3 img{
+    width: 270px;
+    height: 350px;
+    border: 0;
+    border-radius: 20px;
+}
+.project3 p{
+    line-height: 1.7rem;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1rem;
+}
