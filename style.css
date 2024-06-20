@@ -347,10 +347,16 @@ footer p{
 .heroitems h2{
     text-decoration: none;
     font-size: 1rem;
-    margin-left: 20%; 
+    margin-left: -10%;
 }
 .heroitems .button2{
     align-items: center;
+}
+.heroitems li{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 .skillslist span{
     display: none;
@@ -368,7 +374,7 @@ footer p{
     width: 20px;
     height: 20px;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: -10%;
     margin-bottom: auto;
     margin-top: auto;
 }
@@ -376,23 +382,23 @@ footer p{
     width: 20px;
     height: 20px;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: -10%;
     margin-bottom: auto;
     margin-top: auto;
 }
 .skillslist2 img{
     width: 20px;
     height: 20px;
-    margin-right: 47%;
-    margin-left: auto;
+    margin-right: auto;
+    margin-left: -25%;
     margin-bottom: auto;
     margin-top: auto;
 }
 .skillslist3 img{
     width: 20px;
     height: 20px;
-    margin-right: 47%;
-    margin-left: auto;
+    margin-right: auto;
+    margin-left: -25%;
     margin-bottom: auto;
     margin-top: auto;
 }
@@ -413,19 +419,18 @@ footer p{
     list-style: none;
     line-height: 1.2;
     font-size: 0.8rem;
-    margin-left: auto;
+    margin-left: -5rem;
 }
 .skillslist3{
     list-style: none;
     line-height: 1.2;
     font-size: 0.8rem;
-    margin-left: auto;
+    margin-left: -5rem;
 
 }
 .project h2{
     font-size: 1rem;
-    margin-left: auto;
-    margin-left: 15%;
+    margin-left: 1rem;
 }
 .projects{
     display: flex;
@@ -509,4 +514,203 @@ footer p{
     height: 15px;
 }
 
+}
+@media screen and (max-width:770px) and (min-width:450px){
+    .navbarslist,.imgclass{
+        display: none;
+    }
+    .logomobile,.fa .fa-bars{
+        display: inline-block;
+    }
+    .fa,.fa-bars{
+        cursor: pointer;
+    }
+    .fa,.fa-bars:hover + .navbarslist1{
+        display: block;
+        background-color:white;
+        color: #141414;
+        cursor: pointer;
+    }
+    .navbarslist1 ul{
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+        list-style: none;
+        position: absolute;
+        left: 0;
+    }
+    .navbarslist1 ul li{
+        margin-bottom: 1rem;
+    }
+    .navbarslist1 a{
+        text-decoration: none;
+        color: black;
+    }
+    .heroitems img{
+        display: flex;
+        flex-direction: row;
+        width: 250px;
+        height: 370px;
+        float: right;
+        border: 0;
+        border-radius: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .heroitems h1{
+        font-size: 1.5rem;
+    }
+    .heroitems p{
+        font-size: 1rem;
+    }
+    .button2{
+        padding: -5rem;
+        margin-left:28%;
+    }
+    .heroitems h2{
+        margin-top: 5rem;
+    }
+    .skillslist img{
+        width: 20px;
+        height: 20px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: auto;
+        margin-top: auto;
+    }
+    .skillslist span{
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .skillslist1 span{
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .skillslist2 span{
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: 55%;
+    }
+    .skillslist3 span{
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: 55%;
+    }
+    .skillslist1 img{
+        width: 20px;
+        height: 20px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: auto;
+        margin-top: auto;
+    }
+    .skillslist2 img{
+        width: 20px;
+        height: 20px;
+        margin-right: auto;
+        margin-left: -1%;
+        margin-bottom: auto;
+        margin-top: auto;
+    }
+    .skillslist3 img{
+        width: 20px;
+        height: 20px;
+        margin-right: auto;
+        margin-left: -1%;
+        margin-bottom: auto;
+        margin-top: auto;
+    }
+    .project h2{
+        font-size: 1rem;
+        margin-left: auto;
+        margin-left: 15%;
+    }
+    .projects{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .project1{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100px;
+        background-color: #a6a6a6;
+        color: black;
+        border: 0;
+        border-radius: 20px;
+        align-items: center;
+        margin-left: 10%;
+    }
+    .project1 img{
+        width: 100px;
+        height: 200px;
+        border: 0;
+        border-radius: 20px;
+    }
+    .project1 p{
+        line-height: 1rem;
+        text-decoration: none;
+        text-align: center;
+        font-size: 0.5rem;
+    }
+    .project2{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100px;
+        background-color: #a6a6a6;
+        color: black;
+        border: 0;
+        border-radius: 20px;
+        align-items: center;
+        margin-left: auto;
+    }
+    .project2 img{
+        width: 100px;
+        height: 200px;
+        border: 0;
+        border-radius: 20px;
+    }
+    .project2 p{
+        line-height: 1rem;
+        text-decoration: none;
+        text-align: center;
+        font-size: 0.5rem;
+    }
+    .project3{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100px;
+        background-color: #a6a6a6;
+        color: black;
+        border: 0;
+        border-radius: 20px;
+        margin-left: auto;
+        margin-right: 10%;
+    }
+    .project3 img{
+        width: 100px;
+        height: 200px;
+        border: 0;
+        border-radius: 20px;
+    }
+    .project3 p{
+        line-height: 1rem;
+        text-decoration: none;
+        text-align: center;
+        font-size: 0.5rem;
+    }
+    .icons img{
+        width: 15px;
+        height: 15px;
+    }
 }
