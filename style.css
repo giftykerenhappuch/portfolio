@@ -291,30 +291,32 @@ footer p{
 .logomobile,.navbarslist1{
     display: none;
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:450px) and (min-width:300px){
 .navbarslist,.imgclass{
     display: none;
-}
-.nav{
-    padding: 2rem;
 }
 .logomobile,.fa .fa-bars{
     display: inline-block;
 }
+.fa,.fa-bars{
+    cursor: pointer;
+}
 .fa,.fa-bars:hover + .navbarslist1{
-    display: inline-block;
+    display: block;
     background-color:white;
     color: #141414;
+    cursor: pointer;
 }
 .navbarslist1 ul{
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 20px;
+    flex-direction: column;
+    gap: 7px;
     list-style: none;
     position: absolute;
-    top:30px;
     left: 0;
+}
+.navbarslist1 ul li{
+    margin-bottom: 1rem;
 }
 .navbarslist1 a{
     text-decoration: none;
@@ -325,28 +327,30 @@ footer p{
     text-decoration: none;
     font-size: 1rem;
     color: #473d2f;
+    text-align: center;
 }
 .heroitems img{
-    display: inline;
+    display: block;
     width: 100px;
     height: 220px;
-    border-radius: 15px;
+    border-radius: 15px; 
+    margin-right:35%;
+    margin-top: 15%;
 }
 .heroitems p{
     display: flex;
+    flex-direction: row;
     font-size: 1rem;
     line-height: 1.7;
     padding: 4%;
 }
 .heroitems h2{
     text-decoration: none;
-    font-size: 1rem;    
- }
+    font-size: 1rem;
+    margin-left: 20%; 
+}
 .heroitems .button2{
     align-items: center;
-}
-.heroitems ul+img{
-          margin-top: -10px;
 }
 .skillslist span{
     display: none;
@@ -360,46 +364,68 @@ footer p{
 .skillslist3 span{
     display: none;
 }
-.skillslist{
-    list-style: none;
-    line-height: 1.6;
-    font-size: 1rem;
-}
-.skillslist1{
-    list-style: none;
-    line-height: 1.6;
-    font-size: 1rem;
-}
-.skillslist2{
-    list-style: none;
-    line-height: 1.6;
-    font-size: 1rem;
-}
-.skillslist3{
-    list-style: none;
-    line-height: 1.6;
-    font-size: 1rem;
-}
 .skillslist img{
     width: 20px;
     height: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-top: auto;
 }
 .skillslist1 img{
     width: 20px;
     height: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-top: auto;
 }
 .skillslist2 img{
     width: 20px;
     height: 20px;
-    margin-right: 53%;
+    margin-right: 35%;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-top: auto;
 }
 .skillslist3 img{
     width: 20px;
     height: 20px;
-    margin-right: 53%;
+    margin-right: 35%;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+.skillslist{
+    list-style: none;
+    line-height: 1.2;
+    font-size: 0.8rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.skillslist1{
+    list-style: none;
+    line-height: 1.2;
+    font-size: 0.8rem;
+    margin-left: auto;
+}
+.skillslist2{
+    list-style: none;
+    line-height: 1.2;
+    font-size: 0.8rem;
+    margin-left: auto;
+}
+.skillslist3{
+    list-style: none;
+    line-height: 1.2;
+    font-size: 0.8rem;
+    margin-left: auto;
+
 }
 .project h2{
     font-size: 1rem;
+    margin-left: auto;
+    margin-left: 15%;
 }
 .projects{
     display: flex;
@@ -417,6 +443,7 @@ footer p{
     border: 0;
     border-radius: 20px;
     align-items: center;
+    margin-right: auto;
 }
 .project1 img{
     width: 100px;
@@ -440,6 +467,7 @@ footer p{
     border: 0;
     border-radius: 20px;
     align-items: center;
+    margin-left: auto;
 }
 .project2 img{
     width: 100px;
@@ -462,7 +490,7 @@ footer p{
     color: black;
     border: 0;
     border-radius: 20px;
-    margin-right: 35%;
+    margin-left: auto;
 }
 .project3 img{
     width: 100px;
@@ -477,8 +505,8 @@ footer p{
     font-size: 0.5rem;
 }
 .icons img{
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
 }
 
 }
