@@ -291,7 +291,7 @@ footer p{
 .logomobile,.navbarslist1{
     display: none;
 }
-@media screen and (max-width:450px) and (min-width:300px){
+@media screen and (max-width:575px) and (min-width:300px){
 .navbarslist,.imgclass{
     display: none;
 }
@@ -324,17 +324,17 @@ footer p{
 }
 .heroitems h1{
     display: inline-block;
-    text-decoration: none;
     font-size: 1rem;
-    color: #473d2f;
     text-align: center;
+    margin-left: 1rem;
+    margin-right: 5rem;
 }
 .heroitems img{
     display: block;
     width: 100px;
     height: 220px;
     border-radius: 15px; 
-    margin-right:37%;
+    margin-right:39%;
     margin-top: 15%;
 }
 .heroitems p{
@@ -514,7 +514,7 @@ footer p{
 }
 
 }
-@media screen and (max-width:770px) and (min-width:450px){
+@media screen and (max-width:770px) and (min-width:550px){
     .navbarslist,.imgclass{
         display: none;
     }
